@@ -7,12 +7,16 @@ using System.Web.Mvc;
 
 namespace ConsoleApplication1
 {
-    class Program
+    class AccueilController : Controller
     {
-        static void Main(string[] args)
+        public ActionResult Index()
         {
-            Console.WriteLine("blabla");
-            Console.ReadKey();
+            return View();
         }
+        public ActionResult IndexDeux()
+        {
+            return View();
+        }
+   
     }
 }
